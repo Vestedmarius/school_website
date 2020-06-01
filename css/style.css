@@ -1,12 +1,77 @@
 body {
     margin: 0;
     padding: 0;
-    color: white;
+    font-family: 'Roboto', sans-serif;
 }
+
+p{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+div.container{
+    border-bottom: solid red;
+}
+
+/* LANDING TEXT */
 
 div.landingText{
     background-image: url("../img/code_background.jpg");
     background-size: cover;
+    color: white;
     text-align: center;
     padding: 20vh 0 10vh 0;
+    font-size: 40px;   
+}
+
+/* ABOUT ME */
+
+div.mainText{
+    text-align: center;
+}
+
+div.mainText h1{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+div.aboutPrograming{
+    margin-left: 20ch;
+}
+
+div.aboutPrograming h1{
+    text-transform: uppercase;
+}
+
+div.programingImg img{
+    width: 650px;
+}
+
+
+/* MOBILE / TABLET */
+
+@media screen and (max-width: 1250px) {
+    div.mainText{
+        padding: 0 2% 0 2%;
+    }
+
+    div.landingText{
+        padding: 5vh 0 2vh 0;
+    }
+    
+    div.aboutPrograming{
+        margin: 2%;
+    }
+
+    div.programingImg img{
+        display: block;
+        margin: auto;
+        width: 99%;
+    }
 }
