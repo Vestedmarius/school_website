@@ -43,6 +43,11 @@ div.mainText h1{
 
 div.aboutPrograming{
     margin-left: 20ch;
+    margin-bottom: 5vh;
+}
+
+div.col-6RightPadding{
+    padding-right: 20vh;
 }
 
 div.aboutPrograming h1{
@@ -53,10 +58,19 @@ div.programingImg img{
     width: 650px;
 }
 
+div.zuiderzeeImg img{
+    width: 650px;
+}
+
 
 /* MOBILE / TABLET */
 
 @media screen and (max-width: 1250px) {
+
+    div.container{
+        border-bottom: solid red 3px;
+    }    
+
     div.mainText{
         padding: 0 2% 0 2%;
     }
@@ -68,10 +82,14 @@ div.programingImg img{
     div.aboutPrograming{
         margin: 2%;
     }
+    
+    div.col-6RightPadding{
+        padding-right: 0;
+    }
 
-    div.programingImg img{
+    div.programingImg img, div.zuiderzeeImg img{
         display: block;
         margin: auto;
-        width: 99%;
+        width: 98%;
     }
 }
