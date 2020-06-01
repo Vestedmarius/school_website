@@ -1,7 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("img/code_background.jpg");
-    background-size: cover;
+    color: white;
 }
 
+div.landingText{
+    background-image: url("../img/code_background.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 20vh 0 10vh 0;
+}
